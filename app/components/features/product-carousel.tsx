@@ -17,7 +17,7 @@ const slides = [
     src: "/images/chair-knot-hero.webp",
     alt: "Sculptural knotted lounge chair in terracotta",
     category: "Seating",
-    name: "The Knot Lounge Chair",
+    name: "THE KNOT LOUNGE CHAIR",
     price: "From ₦680,000",
     href: "/products",
   },
@@ -25,7 +25,7 @@ const slides = [
     src: "/images/Statue floor lamp.webp",
     alt: "Hexagonal walnut coffee table",
     category: "Lighting",
-    name: "Statue floor lamp",
+    name: "STATUE FLOOR LAMP",
     price: "From ₦900,000",
     href: "/products",
   },
@@ -33,7 +33,7 @@ const slides = [
     src: "/images/top table.jpeg",
     alt: "Top table",
     category: "Tables",
-    name: "Top Table",
+    name: "TOP TABLE",
     price: "From ₦290,000",
     href: "/products",
   },
@@ -42,7 +42,7 @@ const slides = [
     src: "/images/chair-wood-dining.webp",
     alt: "Floor lamp",
     category: "Lighting",
-    name: "Floor Lamp",
+    name: "FLOOR LAMP",
     price: "From ₦220,000",
     href: "/products",
   },
@@ -50,7 +50,7 @@ const slides = [
     src: "/images/coffee-table-glass.webp",
     alt: "Nordic chair",
     category: "Chairs",
-    name: "Nordic chair",
+    name: "NORDIC CHAIR",
     price: "From ₦130,000",
     href: "/products",
   },
@@ -64,7 +64,7 @@ export default function ProductCarousel() {
       {/* Header */}
       <div className="flex items-end justify-between mb-8 md:mb-10">
         <div>
-          <p className="text-[12px] tracking-[0.26em] uppercase text-[#c8a97e] font-medium mb-3">
+          <p className="text-[15px] tracking-[0.26em] uppercase text-[#c8a97e] font-medium mb-3">
             Featured pieces
           </p>
           
@@ -113,7 +113,7 @@ export default function ProductCarousel() {
                   >
                     {slide.name}
                   </p>
-                  <p className="text-[12px] text-[#7a7268]">{slide.price}</p>
+                  <p className="text-[15px] text-[#7a7268]">{slide.price}</p>
                 </div>
               </Link>
             </CarouselItem>

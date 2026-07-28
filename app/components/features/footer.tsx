@@ -25,7 +25,7 @@ const socials = [
 export default function Footer() {
   return (
     <section className="bg-[#1e1b18] px-6 md:px-12 py-20 text-center">
-      <p className="text-[12px] tracking-[0.26em] uppercase text-white mb-6">
+      <p className="text-[15px] tracking-[0.26em] uppercase text-white mb-6">
         Let&apos;s create together
       </p>
       <h2
@@ -35,7 +35,7 @@ export default function Footer() {
         Got a project in{" "}
         <span className="not-italic text-[#c8a97e]">mind?</span>
       </h2>
-      <p className="text-[15px] text-[#7a7268] font-light mb-10">
+      <p className="text-[20px] text-[#7a7268] font-light mb-10">
         Join our list for collection drops, design inspiration, and studio news.
       </p>
 
@@ -44,11 +44,11 @@ export default function Footer() {
         <input
           type="email"
           placeholder="Your email address"
-          className="bg-transparent border border-[#3a342c] sm:border-r-0 text-[#f0ebe3] placeholder-[#5a5048] text-[13px] px-5 py-3 w-full outline-none focus:border-[#c8a97e] transition-colors duration-200"
+          className="bg-transparent border border-[#3a342c] sm:border-r-0 text-[#f0ebe3] placeholder-[#5a5048] text-[16px] px-5 py-3 w-full outline-none focus:border-[#c8a97e] transition-colors duration-200"
         />
         <Link
           href="/contactus"
-          className="bg-[#c8a97e] text-[#1e1b18] text-[11px] font-semibold tracking-[0.12em] uppercase px-6 py-3 no-underline hover:bg-[#b8956a] transition-colors duration-200 flex items-center justify-center shrink-0"
+          className="bg-[#c8a97e] text-[#1e1b18] text-[11px] font-semibold tracking-[0.12em] uppercase px-6 py-3 no-underline  hover:bg-[#b8956a] transition-colors duration-200 flex items-center justify-center shrink-0"
         >
           Subscribe
         </Link>
@@ -88,7 +88,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom copyright */}
-      <p className="text-[10px] tracking-[0.14em] text-[#3a342c] uppercase mt-14">
+      <p className="text-[14px] tracking-[0.14em] text-[#3a342c] uppercase mt-14">
         © {new Date().getFullYear()} Luciano Designs · Lagos
       </p>
     </section>

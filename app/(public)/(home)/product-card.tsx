@@ -69,7 +69,7 @@ export default function ProductCard({
         >
           {name}
         </p>
-        <p className="text-[12.5px] text-[#7a7268] mb-4">{price}</p>
+        <p className="text-[14px] text-[#7a7268] mb-4">{price}</p>
 
         {/* Quantity + Add to cart */}
         <div className="flex items-center gap-2">

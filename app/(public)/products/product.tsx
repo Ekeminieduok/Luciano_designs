@@ -32,7 +32,7 @@ export default function Product() {
           src="/images/chair-knot-hero.webp"
           alt="Sculptural knotted lounge chair in terracotta"
           category="Seating"
-          name="The Knot Lounge Chair"
+          name="THE KNOT LOUNGE CHAIR"
           price="From ₦680,000"
           height="h-[260px] md:h-[320px]"
           basePrice={680000}
@@ -42,7 +42,7 @@ export default function Product() {
           src="/images/Statue floor lamp.webp"
           alt="Hexagonal walnut coffee table"
           category="Lighting"
-          name="Statue floor lamp"
+          name="STATUE FLOOR LAMP"
           price="From ₦900,000"
           height="h-[260px] md:h-[320px]"
           basePrice={420000}
@@ -52,7 +52,7 @@ export default function Product() {
           src="/images/glass ball.jpeg"
           alt="glass ball"
           category="Decor"
-          name="Glass Ball"
+          name="GLASS BALL"
           price="From ₦75,000"
           height="h-[260px] md:h-[320px]"
           basePrice={75000}
@@ -66,7 +66,7 @@ export default function Product() {
           src="/images/chairs-grey.jpg"
           alt="Cream and grey upholstered luxury dining chairs"
           category="Dining"
-          name="Luxe Dining Chair"
+          name="LUXE DINING CHAIR"
           price="From ₦195,000"
           height="h-[240px] md:h-[280px]"
           basePrice={195000}
@@ -76,7 +76,7 @@ export default function Product() {
           src="/images/coffee-table-glass.webp"
           alt="Nordic chair"
           category="Chairs"
-          name="Nordic chair"
+          name="NORDIC CHAIR"
           price="From ₦130,000"
           height="h-[240px] md:h-[280px]"
           basePrice={130000}
@@ -86,7 +86,7 @@ export default function Product() {
           src="/images/chair-wood-dining.webp"
           alt="Floor lamp"
           category="Lighting"
-          name="Floor lamp"
+          name="FLOOR LAMP"
           price="From ₦220,000"
           height="h-[240px] md:h-[280px]"
           basePrice={220000}
@@ -97,7 +97,7 @@ export default function Product() {
           src="/images/Luxury floor lamp.png"
           alt="Luxury floor lamp"
           category="Lighting"
-          name="Luxury Floor Lamp"
+          name="LUXURY FLOOR LAMP"
           price="From ₦350,000"
           height="h-[240px] md:h-[280px]"
           basePrice={350000}
@@ -108,7 +108,7 @@ export default function Product() {
           src="/images/floor lamp.png"
           alt="Floor lamp"
           category="Lighting"
-          name="Floor Lamp"
+          name="FLOOR LAMP"
           price="From ₦380,000"
           height="h-[240px] md:h-[280px]"
           basePrice={380000}
@@ -119,7 +119,7 @@ export default function Product() {
           src="/images/table lamp.png"
           alt="Table lamp"
           category="Lighting"
-          name="Table Lamp"
+          name="TABLE LAMP"
           price="From ₦160,000"
           height="h-[240px] md:h-[280px]"
           basePrice={160000}
@@ -130,7 +130,7 @@ export default function Product() {
           src="/images/Oval shaped mirror .png"
           alt="Oval shaped mirror"
           category="Decor"
-          name="Oval Shaped Mirror"
+          name="OVAL SHAPED MIRROR"
           price="From ₦120,000"
           height="h-[240px] md:h-[280px]"
           basePrice={120000}
@@ -140,7 +140,7 @@ export default function Product() {
           src="/images/center table.png"
           alt="Center table"
           category="Tables"
-          name="Center Table"
+          name="CENTER TABLE"
           price="From ₦105,000"
           height="h-[240px] md:h-[280px]"
           basePrice={105000}
@@ -150,7 +150,7 @@ export default function Product() {
           src="/images/couch.jpeg"
           alt="side couch"
           category="Seating"
-          name="Side couch"
+          name="SIDE COUCH"
           price="From ₦150,000"
           height="h-[240px] md:h-[280px]"
           basePrice={150000}
@@ -160,7 +160,7 @@ export default function Product() {
           src="/images/crossed line mat.jpeg"
           alt="crossed line mat"
           category="Rugs"
-          name="Crossed Line Mat"
+          name="CROSSED LINE MAT"
           price="From ₦85,000"
           height="h-[240px] md:h-[280px]"
           basePrice={85000}
@@ -170,7 +170,7 @@ export default function Product() {
           src="/images/dinning set.jpeg"
           alt="dinning set"
           category="chairs"
-          name="Dinning Set"
+          name="DINNING SET"
           price="From ₦325,000"
           height="h-[240px] md:h-[280px]"
           basePrice={325000}
@@ -180,7 +180,7 @@ export default function Product() {
           src="/images/plain couch.jpeg"
           alt="plain couch"
           category="chairs"
-          name="Plain Couch"
+          name="PLAIN COUCH"
           price="From ₦250,000"
           height="h-[240px] md:h-[280px]"
           basePrice={250000}
@@ -190,7 +190,7 @@ export default function Product() {
           src="/images/side chairs.jpeg"
           alt="side chairs"
           category="chairs"
-          name="Side Chairs"
+          name="SIDE CHAIRS"
           price="From ₦300,000"
           height="h-[240px] md:h-[280px]"
           basePrice={300000}
@@ -201,7 +201,7 @@ export default function Product() {
           src="/images/coffee table set.png"
           alt="Coffee table set"
           category="Tables"
-          name="Coffee Table Set"
+          name="COFFEE TABLE SET"
           price="From ₦170,000"
           height="h-[240px] md:h-[280px]"
           basePrice={170000}
@@ -212,7 +212,7 @@ export default function Product() {
           src="/images/Bar stool.png"
           alt="Bar stools"
           category="Seating"
-          name="Bar Stools"
+          name="BAR STOOLS"
           price="From ₦180,000"
           height="h-[240px] md:h-[280px]"
           basePrice={180000}

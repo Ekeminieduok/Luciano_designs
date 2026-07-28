@@ -40,7 +40,7 @@ export default function HomePage() {
           <div className="max-w-2xl">
             <div className="flex items-center gap-3 mb-5 sm:mb-7">
               <div className="w-6 sm:w-8 h-px bg-[#c8a97e]" />
-              <p className="text-[9px] sm:text-[10px] tracking-[0.28em] uppercase text-[#c8a97e] font-medium">
+              <p className="text-[11px] sm:text-[17px] tracking-[0.28em] uppercase text-[#c8a97e] font-medium">
                 Lagos · Nigeria
               </p>
             </div>
@@ -54,7 +54,7 @@ export default function HomePage() {
               become <em className="italic text-[#c8a97e]">stories.</em>
             </h1>
 
-            <p className="text-[13px] sm:text-[15px] font-light text-white/55 max-w-[300px] sm:max-w-sm leading-[1.85] mb-8 sm:mb-10">
+            <p className="text-[15px] sm:text-[19px] font-light text-white/55 max-w-[300px] sm:max-w-sm leading-[1.85] mb-8 sm:mb-10">
               Bespoke interiors, custom furniture, and curated pieces — crafted
               for how you actually live.
             </p>
@@ -73,7 +73,7 @@ export default function HomePage() {
                 href="https://wa.me/2347039602582?text=Hi%20Luciano%20Designs%2C%20I%27d%20like%20to%20book%20a%20consultation"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[11px] tracking-[0.1em] uppercase text-white/45 hover:text-[#c8a97e] transition-colors duration-200 no-underline border-b border-white/20 hover:border-[#c8a97e] pb-px"
+                className="text-[14px] tracking-[0.1em] uppercase text-white/45 hover:text-[#c8a97e] transition-colors duration-200 no-underline border-b border-white/20 hover:border-[#c8a97e] pb-px"
               >
                 Book a free consultation
               </a>
@@ -127,7 +127,7 @@ export default function HomePage() {
             <br />
             you never want to leave.
           </h2>
-          <p className="text-[13px] sm:text-[13.5px] text-[#7a7268] leading-[1.9] font-light mb-4">
+          <p className="text-[15px] sm:text-[18px] text-[#7a7268] leading-[1.9] font-light mb-4">
             At Luciano Designs, we believe furniture should do more than fill a
             room. Each piece is considered — the weight of the wood, the curve
             of an armrest, the way afternoon light hits a surface.
@@ -138,7 +138,7 @@ export default function HomePage() {
           </p>
           <Link
             href="/products"
-            className="self-start inline-flex items-center gap-2 text-[11px] tracking-[0.12em] uppercase text-[#1e1b18] border-b border-[#c8a97e] pb-0.5 no-underline hover:text-[#c8a97e] transition-colors duration-200 group"
+            className="self-start inline-flex items-center gap-2 text-[14px] tracking-[0.12em] uppercase text-[#1e1b18] border-b border-[#c8a97e] pb-0.5 no-underline hover:text-[#c8a97e] transition-colors duration-200 group"
           >
             View the collection
             <span className="transition-transform duration-200 group-hover:translate-x-1">
@@ -152,7 +152,7 @@ export default function HomePage() {
       <section className="bg-[#1e1b18] px-6 sm:px-10 md:px-20 py-24 md:py-40">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-[1fr_320px] gap-8 md:gap-16 items-end">
           <div>
-            <p className="text-[9px] tracking-[0.26em] uppercase text-[#6b5e4e] mb-4">
+            <p className="text-[14px] tracking-[0.26em] uppercase text-[#6b5e4e] mb-4">
               The Luciano Edit
             </p>
             <h2
@@ -165,7 +165,7 @@ export default function HomePage() {
             </h2>
           </div>
           <div className="flex flex-col gap-5">
-            <p className="text-[13px] text-[#6b5e4e] leading-[1.9] font-light">
+            <p className="text-[17px] text-[#6b5e4e] leading-[1.9] font-light">
               Every home has its own rhythm. We listen to yours before we design
               anything — then we make it beautiful.
             </p>
@@ -218,7 +218,7 @@ export default function HomePage() {
 
           <div className="flex items-center gap-4">
             <div className="w-8 h-px bg-[#c8a97e] shrink-0" />
-            <p className="text-[10px] tracking-[0.18em] uppercase text-[#b8b0a4] font-medium">
+            <p className="text-[13px] tracking-[0.18em] uppercase text-[#b8b0a4] font-medium">
               Amara O. — Lagos, Residential Project 2024
             </p>
           </div>

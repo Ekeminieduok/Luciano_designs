@@ -143,7 +143,7 @@ export default function FAQPage() {
       <section className="px-6 md:px-16 py-16 md:py-24 max-w-4xl mx-auto">
         <div className="flex items-center gap-4 mb-12">
           <div className="h-px flex-1 bg-[#e5e0d8]" />
-          <p className="text-[9px] tracking-[0.26em] uppercase text-[#c8a97e] font-medium shrink-0">
+          <p className="text-[13px] tracking-[0.26em] uppercase text-[#c8a97e] font-medium shrink-0">
             Most asked questions
           </p>
           <div className="h-px flex-1 bg-[#e5e0d8]" />
@@ -247,10 +247,10 @@ export default function FAQPage() {
               >
                 <span className="text-[22px] text-[#c8a97e]">{icon}</span>
                 <div>
-                  <p className="text-[12px] font-semibold tracking-[0.08em] uppercase text-[#1e1b18]">
+                  <p className="text-[14px] font-semibold tracking-[0.08em] uppercase text-[#1e1b18]">
                     {label}
                   </p>
-                  <p className="text-[12px] text-[#7a7268] font-light">
+                  <p className="text-[14px] text-[#7a7268] font-light">
                     {desc}
                   </p>
                 </div>
@@ -270,14 +270,14 @@ export default function FAQPage() {
           "
         </div>
         <p
-          className="text-[24px] md:text-[32px] font-light italic text-[#1e1b18] leading-[1.3] mb-6"
+          className="text-[34px] md:text-[38px] font-light italic text-[#1e1b18] leading-[1.3] mb-6"
           style={{ fontFamily: "'Cormorant Garamond', serif" }}
         >
           Still have a question?
           <br />
           <span className="text-[#c8a97e]">We'd love to hear from you.</span>
         </p>
-        <p className="text-[13px] text-[#7a7268] leading-[1.85] mb-8 font-light">
+        <p className="text-[15px] text-[#7a7268] leading-[1.85] mb-8 font-light">
           Book a free consultation — no commitment, no pressure. Just a
           conversation about your space.
         </p>

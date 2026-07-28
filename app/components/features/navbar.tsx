@@ -111,7 +111,7 @@ export default function Navbar() {
                 isTransparent ? "text-white/70 hover:text-white" : "text-[#7a7268] hover:text-[#1c1a17]"
               }`}
             >
-              <CiShoppingCart size={22} />
+              <CiShoppingCart size={23} />
               {totalItems > 0 && (
                 <span className="absolute -top-1.5 -right-2 min-w-[16px] h-4 px-1 flex items-center justify-center bg-[#c8a97e] text-white text-[8px] font-semibold rounded-full leading-none">
                   {totalItems > 99 ? "99+" : totalItems}

@@ -5,7 +5,7 @@ export default function AccentPieces() {
     <section className="px-6 md:px-12 py-14 md:py-20 bg-white">
       <div className="flex items-end justify-between mb-8 md:mb-10">
         <div>
-          <p className="text-[9px] tracking-[0.26em] uppercase text-[#c8a97e] font-medium mb-3">
+          <p className="text-[12px] tracking-[0.26em] uppercase text-[#c8a97e] font-medium mb-3">
             Accent pieces
           </p>
           <h2
@@ -23,7 +23,7 @@ export default function AccentPieces() {
           src="/images/side-table-black.webp"
           alt="Glossy black sculptural pedestal side table"
           category="Tables"
-          name="Side Table"
+          name="SIDE TABLE"
           price="From ₦60,000"
           height="h-[300px] md:h-[380px]"
           basePrice={60000}
@@ -33,7 +33,7 @@ export default function AccentPieces() {
           src="/images/glass table.png"
           alt="glass table"
           category="Tables"
-          name="Glass Centre Table"
+          name="GLASS CENTRE TABLE"
           price="From ₦155,000"
           height="h-[300px] md:h-[380px]"
           basePrice={155000}
@@ -43,7 +43,7 @@ export default function AccentPieces() {
           src="/images/brown table.jpeg"
           alt="brown table"
           category="Tables"
-          name="Brown Centre Table"
+          name="BROWN CENTRE TABLE"
           price="From ₦165,000"
           height="h-[300px] md:h-[380px]"
           basePrice={165000}
@@ -53,7 +53,7 @@ export default function AccentPieces() {
           src="/images/dotted mat.jpeg"
           alt="dotted mat"
           category="Rugs"
-          name="Dotted Rug"
+          name="DOTTED RUG"
           price="From ₦120,000"
           height="h-[300px] md:h-[380px]"
           basePrice={120000}
@@ -63,7 +63,7 @@ export default function AccentPieces() {
           src="/images/space men.jpeg"
           alt="space"
           category="Decor"
-          name="Space Men"
+          name="SPACE MEN"
           price="From ₦95,000"
           height="h-[300px] md:h-[380px]"
           basePrice={95000}
@@ -73,7 +73,7 @@ export default function AccentPieces() {
           src="/images/little men.jpeg"
           alt="little"
           category="Decor"
-          name="Little Men"
+          name="LITTLE MEN"
           price="From ₦95,000"
           height="h-[300px] md:h-[380px]"
           basePrice={95000}
@@ -83,7 +83,7 @@ export default function AccentPieces() {
           src="/images/sculptured quails.jpeg"
           alt="sculptured quails"
           category="Decor"
-          name="Quails"
+          name="SCULPTURED QUAils"
           price="From ₦85,000"
           height="h-[300px] md:h-[380px]"
           basePrice={85000}
@@ -93,7 +93,7 @@ export default function AccentPieces() {
           src="/images/molded twists.jpeg"
           alt="molded twists"
           category="Decor"
-          name="Molded Twists"
+          name="MOLDED TWISTS"
           price="From ₦105,000"
           height="h-[300px] md:h-[380px]"
           basePrice={105000}
@@ -103,7 +103,7 @@ export default function AccentPieces() {
           src="/images/Side trolley table.png"
           alt="Side trolley table"
           category="Tables"
-          name="Side Trolley Table"
+          name="SIDE TROLLEY TABLE"
           price="From ₦70,000"
           height="h-[300px] md:h-[380px]"
           basePrice={70000}
@@ -113,7 +113,7 @@ export default function AccentPieces() {
           src="/images/Rocking chair.png"
           alt="Rocking chair"
           category="Chairs"
-          name="Rocking Chair"
+          name="ROCKING CHAIR"
           price="From ₦175,000"
           height="h-[300px] md:h-[380px]"
           basePrice={175000}
@@ -123,7 +123,7 @@ export default function AccentPieces() {
           src="/images/Astronauts.png"
           alt="Astronauts"
           category="Decor"
-          name="Astronauts"
+          name="ASTRONAUTS"
           price="From ₦25,000"
           height="h-[300px] md:h-[380px]"
           basePrice={25000}
@@ -133,7 +133,7 @@ export default function AccentPieces() {
           src="/images/Ceramic vase set.png"
           alt="Ceramic vase set"
           category="Decor"
-          name="Ceramic Vase Set"
+          name="CERAMIC VASE SET"
           price="From ₦45,000"
           height="h-[300px] md:h-[380px]"
           basePrice={45000}
@@ -143,7 +143,7 @@ export default function AccentPieces() {
           src="/images/Faux books.png"
           alt="Faux books"
           category="Decor"
-          name="Faux Books"
+          name="FAUX BOOKS"
           price="From ₦12,000"
           height="h-[300px] md:h-[380px]"
           basePrice={12000}
@@ -153,7 +153,7 @@ export default function AccentPieces() {
           src="/images/Floor sculpture lamp.png"
           alt="Floor sculpture lamp"
           category="Lighting"
-          name="Floor Sculpture Lamp"
+          name="FLOOR SCULPTURE LAMP"
           price="From ₦1,000,000"
           height="h-[300px] md:h-[380px]"
           basePrice={1000000}
