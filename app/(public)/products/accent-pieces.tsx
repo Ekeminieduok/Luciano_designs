@@ -83,7 +83,7 @@ export default function AccentPieces() {
           src="/images/sculptured quails.jpeg"
           alt="sculptured quails"
           category="Decor"
-          name="SCULPTURED QUAils"
+          name="SCULPTURED QUAILS"
           price="From ₦85,000"
           height="h-[300px] md:h-[380px]"
           basePrice={85000}

@@ -23,21 +23,25 @@ export default function Navbar() {
   const isHome = pathname === "/";
 
   // Track scroll only on homepage
-  useEffect(() => {
-    if (!isHome) { setScrolled(false); return; }
-    const onScroll = () => setScrolled(window.scrollY > 20);
-    onScroll(); // check on mount
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, [isHome]);
+useEffect(() => {
+  if (!isHome) {
+    setScrolled(false);
+    return;
+  }
+  const onScroll = () => setScrolled(window.scrollY > 20);
+  onScroll();
+  window.addEventListener("scroll", onScroll, { passive: true });
+  return () => window.removeEventListener("scroll", onScroll);
+}, [isHome]);
 
   // Close drawer on route change
-  useEffect(() => {
-    if (prevPathname.current !== pathname) {
-      prevPathname.current = pathname;
-      setMenuOpen(false);
-    }
-  }, [pathname]);
+useEffect(() => {
+  if (prevPathname.current !== pathname) {
+    prevPathname.current = pathname;
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setMenuOpen(false);
+  }
+}, [pathname]);
 
   // Lock body scroll
   useEffect(() => {

@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+  
 import ProductCard from "../(home)/product-card";
 import AccentPrices from "./accent-pieces";
 
