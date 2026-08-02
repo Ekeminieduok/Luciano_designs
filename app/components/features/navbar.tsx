@@ -24,14 +24,14 @@ export default function Navbar() {
 
   // Track scroll only on homepage
 useEffect(() => {
-  if (!isHome) {
-    setScrolled(false);
-    return;
-  }
+  if (!isHome) return;
   const onScroll = () => setScrolled(window.scrollY > 20);
   onScroll();
   window.addEventListener("scroll", onScroll, { passive: true });
-  return () => window.removeEventListener("scroll", onScroll);
+  return () => {
+    window.removeEventListener("scroll", onScroll);
+    setScrolled(false);
+  };
 }, [isHome]);
 
   // Close drawer on route change
